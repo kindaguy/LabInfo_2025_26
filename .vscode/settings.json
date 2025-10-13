@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "letturaTastiera.C": "cpp",
+        "serieGeometrica.C": "cpp",
+        "serieArmonica.C": "cpp",
+        "serieArmonica copy.C": "cpp",
+        "serieArmonica_post.C": "cpp",
+        "serieArmonica_pre.C": "cpp"
+    }
+}
