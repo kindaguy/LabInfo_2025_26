@@ -6,8 +6,7 @@ int main(){
 
  int val=1;
  float somma = 0.f;
-
-
+ 
 
  while(somma !=somma+1.f/val){
     somma = somma + 1.f/val;
