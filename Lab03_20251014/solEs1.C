@@ -27,7 +27,7 @@ int main(){
    cin >> datoF;
    //Esercizio: completare leggendo da tastiera dato razionale (con la virgola)
    //e stampandolo a video.
-   cout << endl << "Dato razionale inserito: " << datoF << endl;
+   cout  << "Numero razionale inserito: " << datoF << endl;
 
    //Attenzione: usare datoF come contenitore di destinazione.
    //Suggerimento: provate a usare datoI come contenitore e 

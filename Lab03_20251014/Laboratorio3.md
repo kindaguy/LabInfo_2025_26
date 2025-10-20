@@ -90,7 +90,7 @@ NOTA: il valore deve essere letto una volta prima di verificare la condizione e 
 
 Il costrutto 
 
-`do{ Blocco} while (cond)`
+`do{ Blocco} while (cond);`
 
 definisce una __iterazione post-condizionale__. A differenza di una __iterazione pre-condizionale__, il _blocco_ di una iterazione pre-condizionale viene eseguito almeno una volta. Modificare la soluzione dell'Esercizio 6 usando una iterazione pre-condizionale. Quale dei due controlli del flusso di calcolo meglio si adatta alla richiesta dell'Esercizio 6? 
 

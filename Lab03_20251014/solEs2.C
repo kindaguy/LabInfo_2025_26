@@ -5,9 +5,11 @@ using namespace std;
 int main(){
 
     int val;
+
     //int succ;
     //int prec;
     int c;
+    
     cout << endl << "Inserire intero:" ;
 
     cin >> val;
