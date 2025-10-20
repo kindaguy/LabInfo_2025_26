@@ -1,9 +1,13 @@
 #include <iostream>
+<<<<<<< HEAD
 
+=======
+>>>>>>> ab6ebe2a76f728eb2d923b457bcaf1c6a16de8ab
 using namespace std;
 
 int main(){
 
+<<<<<<< HEAD
     //Mi serve un contenitore per l'intero da tastiera
 
     int x;
@@ -23,4 +27,23 @@ int main(){
 
     return 0;
 
+=======
+    float       x;
+
+    cout << endl <<"Inserire numero: ";
+    cin >> x;
+
+    if(x >= 0){
+        cout << endl << "Numero positivo";
+        
+    }
+    else{
+        cout << endl << "Numero negativo";
+    }
+    cout << endl;
+
+    return 0;
+
+
+>>>>>>> ab6ebe2a76f728eb2d923b457bcaf1c6a16de8ab
 }
