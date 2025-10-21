@@ -61,7 +61,7 @@ In pratica
 
 `int a = -1`
 
-`if( (-1*a)%2 ==o   ) {`
+`if( (-1*a)%2 ==0   ) {`
 
 `cout << endl << "dispari" << endl`
 
