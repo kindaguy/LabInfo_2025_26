@@ -97,6 +97,7 @@ Finito il caricamento dei dati, stampare a video:
 - il numero di valori outlier
 - la media campionaria e la deviazione standard dei valori buoni.
 
+RIFLESSIONE: quali sono le informazioni che mi permettono di usare in modo consistente un array, ovvero quelle informazioni date le quali posso manipolare tutti e soli i valori contenuti nell'array?
 
 ## Esercizio 7 (Crivello di Eratostene)
 
