@@ -20,8 +20,8 @@ int main(){
     cout << "Stampa allineato a sx su campi di 10 caratteri:" << endl;
     //Cambio allineamento: a sx
     cout << left;
-    cout << endl << setw(10) << dato1;
-    cout << endl << setw(10) << dato2;
+    cout << endl << setw(10) << dato1 << setw(10) << dato2;
+    cout << endl << setw(10) << dato2 << setw(10) << dato3;
     cout << endl << setw(10) << dato3;
     cout << endl;
 

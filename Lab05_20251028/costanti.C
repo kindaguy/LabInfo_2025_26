@@ -13,6 +13,7 @@ loro assegnato un valore, non possono essere più modificate.
 using namespace std;
 
 #define NN 100
+#define STAMPA "Ciao"
 
 int main(){
 
