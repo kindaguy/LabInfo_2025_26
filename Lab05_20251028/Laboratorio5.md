@@ -1,4 +1,4 @@
-# Laboratorio 5:  array...array...array
+# Laboratorio 5:  array...files...array
 
 ## Intro
 
@@ -6,6 +6,8 @@ In questo laboratorio lavoreremo con gli array (forse si poteva intuire dal tito
 per manipolare in modo consistente un array.
 
 Introdurremo anche una nuova direttiva a preprocessore __#define__ ovvero le costanti "letterali" e la definizione di variabili costanti (__const__) ovvero variabili che non possono variare il contenuto.
+
+Ci eserciteremo in modo estensivo anche sull'uso di file come sorgenti/destinazioni di informazioni.
 
 
 
