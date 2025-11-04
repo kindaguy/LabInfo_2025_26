@@ -96,6 +96,9 @@ che scambi le componenti di un vettore (di __n__ elementi) in posizione __i__ e 
 Verificare il comportamento della funzione __scambia__ qui definita stampando il contenuto dell'array passato come parametro attuale alla funzione sia prima che dopo la chiamata della stessa.
 
 ## Esercizio 9
+Implementate una funzione che, presi in ingresso due interi __a__ e __b__ restituisce il Massimo Comun Divisore tra i due numeri. La funzione dovrà accettare e restituire l'MCD di qualsiasi coppia di interi >0. Se vengono passati valori <=0 la funzione dovrà stampare a video un messaggio di errore e restituire il valore -1.
+
+## Esercizio 10
 
 Definire funzioni per il calcolo della media e della deviazione standard di per array di `int` e `double`. Mettete tutte le funzioni per il calcolo delle medie e delle deviazioni sandard in un file, con un __main__ che testi il funzionamento delle stesse. Ogni volta che avrete bisogno di calcolare medie e deviazioni standard di vettori, potrete copiare ed incollare attingendo da questo file. A breve vedremo un modo per rendere il processo di copia-incolla automatico, imitando quanto il vostro compilatore già fa quando usate le librerie di sistema come __fstream__, __iostream__, __cmath__ etc....
 
