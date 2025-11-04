@@ -12,7 +12,7 @@
 Definire una funzione di nome __isInRange__ che:
 
 1. prende in ingresso tre valori `float`: il primo valore è il numero $x$ da controllare; i due valori `float` successivi individuano gli estremi di un intervallo chiuso e limitato __[min,max]__.
-2. la funzione deve restituire _true_ $x \in [\text{min,max}]$, _false_ altrimenti.
+2. la funzione deve restituire _true_ se $x \in [\text{min,max}]$, _false_ altrimenti.
 
 
 

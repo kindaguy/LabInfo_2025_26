@@ -6,7 +6,7 @@ int main(){
 
     int primi[50];
     int numero;
-    bool isprime;
+ 
     
     //Uso pos per tenere traccia della prima posizione libera
     //dell'array
@@ -41,14 +41,19 @@ int main(){
             }
             j++;
         }
+        //Se isprime e` vero allora il valore e` primo e lo registro 
+        //nella prima posizione libera dell'array
         if(isprime){ //Registro numero
             primi[pos]=numero;
             pos++;
         }
+        //altrimenti non faccio nulla se non
+
+        //passare al numero successivo
         numero++;
     }
 
-
+    //Stampo array a video
     for(int i=0; i<50; i++)
         cout << endl << primi[i];
     cout << endl;
