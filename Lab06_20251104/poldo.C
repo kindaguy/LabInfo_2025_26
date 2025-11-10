@@ -1,0 +1,1 @@
+file_in.ignore(intero positivo n , carattere '\n')

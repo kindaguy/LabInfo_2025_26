@@ -89,7 +89,7 @@ NOTA: la parola __void__ è una parola chiave del linguaggio e indica il "tipo" 
 ## Esercizio 8
 Scrivere una funzione 
 
-__void scambia(int v[], int n, int i, int j)__
+__void scambia(int v[n], int n, int i, int j)__
 
 che scambi le componenti di un vettore (di __n__ elementi) in posizione __i__ e __j__. La funzione dovrà controllare che entrambi gli indici siano all'interno del range __[0,1,..,n-1]__. In caso il controllo fosse negativo (almeno uno dei due indici fuori range) la funzione dovrà stampare a video il messaggio "Indici fuori range"  e non fare nulla.
 
