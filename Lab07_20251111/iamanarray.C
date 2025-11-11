@@ -10,7 +10,7 @@ int main(){
     cout << "v[0] contiene: " << v[0] << endl;
     cout << "v[0] si trova: " << v+0 << endl;
 
-    cout << "v[1] contiene: " << v[0] << endl;
+    cout << "v[1] contiene: " << v[1] << endl;
     cout << "v[1] si trova: " << v+1 << endl;
     cout << "v[2] contiene: " << v[2] << endl;
     cout << "v[2] si trova: " << v+2 << endl;
