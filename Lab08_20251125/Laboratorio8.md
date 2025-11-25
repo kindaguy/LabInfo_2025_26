@@ -59,7 +59,9 @@ con t_i e pos_i scritte su campi di ampiezza 18 e allineati a destra.
 
 ## Esercizio 5 (Stima Monte Carlo di pi-greco)
 
-Scrivere una funzione __double rilevazionePi(double l, int npoints)__ che, preso in ingresso la lunghezza del lato del quadrato, avente spigolo in basso a sinistra nell'origine, in cui verranno estratti __npoints__ punti (uniformemente) a caso, restituisca una rilevazione di $\pi$ come definita a lezione ($\propto$ #pInCerchio/__npunti__).
+Scrivere una funzione __double rilevazionePi( double l, int npoints)__ che, presa in ingresso la lunghezza del lato del quadrato, avente spigolo in basso a sinistra nell'origine, in cui verranno estratti __npoints__ punti (uniformemente) a caso, restituisca una rilevazione di $\pi$ come definita a lezione ($\propto$ #pInCerchio/__npunti__).
+
+NOTA: supporremo che il raggio del cerchio da considerare sia sempre uguale a __l__.
 
 ## Esercizio 6
 
