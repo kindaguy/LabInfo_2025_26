@@ -15,7 +15,7 @@ double rilevazionePi(double l, int npoints){
         if(pow(x,2)+pow(y,2) <= pow(l,2)) contaIn++;
     }
 
-    return (4. *contaIn)/npoints;
+    return (4. * contaIn)/npoints;
 }
 
 int main(){

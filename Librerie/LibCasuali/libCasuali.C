@@ -3,7 +3,7 @@
 //Estrae un valore da una distribuzione di Bernoulli (lancio moneta 0/1, T/C) di parametro p
 int randBern(double p){
     double pick;
-    pick = randUnif(0,1);
+    pick = randUnif(0.,1.);
     if( pick <= p) return 1;
     else return 0;
 }
