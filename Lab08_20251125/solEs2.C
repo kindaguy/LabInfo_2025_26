@@ -56,6 +56,8 @@ int main(){
 
     cout << endl << "Eliminati " << dim - used << " elementi." << endl ;
 
+    stampaArray(acaso,used);
+
     return 0;
 
 
