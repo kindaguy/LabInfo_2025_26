@@ -35,7 +35,7 @@ __NOTA__: il file dovrà essere aperto una prima volta in lettura per contare i 
 
 ## Esercizio 3 (ex Esercizio 9 Lab04)
 
-Il file __votiZoppi.dat__, in questa cartella, contiene un numero precisato di valori. Questi valori dovrebbero rappresentare dei voti, ma chi ha scritto il file era "distratto" e potrebbe aver inserito dei valori fuori dal range [18,...,30]. Caricare in un array dinamicamente allocato della dimensione pari al numero di voti validi descritti su file e caricare i voti all'interno dell'array.
+Il file __votiZoppi.dat__, in questa cartella, contiene un numero non precisato di valori. Questi valori dovrebbero rappresentare dei voti, ma chi ha scritto il file era "distratto" e potrebbe aver inserito dei valori fuori dal range [18,...,30]. Caricare in un array dinamicamente allocato della dimensione pari al numero di voti validi descritti su file e caricare i voti all'interno dell'array.
 
 Stampare quindi a video:
 -  il numero di dati presenti su file.

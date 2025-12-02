@@ -43,6 +43,10 @@ int main(){
     //Informazioni array aggiornate.
     //Ora possiamo usarlo...
 
+    for(int i=0; i<used; i++)
+        cout << endl << v[i];
+    
+    cout << endl;
 
     //Quando l'array non mi serve più, lo elimino.
 
