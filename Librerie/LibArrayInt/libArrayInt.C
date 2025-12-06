@@ -72,7 +72,7 @@ void stampaArray(int v[], int n){
 
 
 //Ricerca lineare
-int ricercaLineare(int v[],int size, int used, int elem){
+int ricercaLineare(int v[],int used, int elem){
     int which = 0;
     //Scandisco il vettore da sinistra vesso destra,
     //avanzando fino a che o non trovo l'elemento o
@@ -84,7 +84,7 @@ int ricercaLineare(int v[],int size, int used, int elem){
 }
 
 //Ricerca lineare in range
-int ricercaLineareRange(int v[], int size, int used, float min, float max){
+int ricercaLineareRange(int v[], int used, float min, float max){
     int which = 0;
     //Scandisco il vettore da sinistra vesso destra,
     //avanzando fino a che o non trovo l'elemento o
@@ -95,4 +95,66 @@ int ricercaLineareRange(int v[], int size, int used, float min, float max){
     else return -1; //mi sono fermato perche' ho esaurito l'array
 
 
+}
+
+int resize(int * & v,int used, int newdim){
+
+    {
+    //Debug
+    cout << "sono in resize";
+    cout << endl << "Used: " << used;
+    cout << endl << "NewDim: " << newdim;
+    int p;
+    cin >>p;
+
+    }
+
+    int * vappo = NULL;
+
+    if(newdim < used){
+    
+        return -1;
+    }
+
+    
+    //Alloco un nuovo vettore e registro l'indirizzo di inizio in vappo
+    vappo = new int[newdim];
+    
+    if(vappo == NULL){
+    
+        return -2;
+    }
+
+    cout << endl << "Vappo:" << vappo << endl;
+    vappo[0]=2;
+    cout << vappo[0];
+    {
+    //Debug
+    cout << "Prima memcpy";
+    int p;
+    cin >>p;
+
+    }
+    for(int i=0; i<used; i++) vappo[i]=4;
+    // memcpy(vappo, v, used * sizeof(int)); 
+
+    {
+    //Debug
+    cout << "memcpy superata";
+    int p;
+    cin >>p;
+    for(int i =0; i<used; i++){
+        cout << vappo[i];
+    }
+    }
+
+
+    //Se per caso l'array v non fosse allocato, non posso fare delete.
+    //if(v != NULL) delete [] v;
+
+    
+    v = vappo;
+
+    
+    return 0;
 }
