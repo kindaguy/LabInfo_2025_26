@@ -98,17 +98,6 @@ int ricercaLineareRange(int v[], int used, float min, float max){
 }
 
 int resize(int * & v,int used, int newdim){
-
-    {
-    //Debug
-    cout << "sono in resize";
-    cout << endl << "Used: " << used;
-    cout << endl << "NewDim: " << newdim;
-    int p;
-    cin >>p;
-
-    }
-
     int * vappo = NULL;
 
     if(newdim < used){
@@ -125,29 +114,8 @@ int resize(int * & v,int used, int newdim){
         return -2;
     }
 
-    cout << endl << "Vappo:" << vappo << endl;
-    vappo[0]=2;
-    cout << vappo[0];
-    {
-    //Debug
-    cout << "Prima memcpy";
-    int p;
-    cin >>p;
-
-    }
-    for(int i=0; i<used; i++) vappo[i]=4;
-    // memcpy(vappo, v, used * sizeof(int)); 
-
-    {
-    //Debug
-    cout << "memcpy superata";
-    int p;
-    cin >>p;
-    for(int i =0; i<used; i++){
-        cout << vappo[i];
-    }
-    }
-
+    memcpy((void *)vappo, (void *)v, used * sizeof(int)); 
+    
 
     //Se per caso l'array v non fosse allocato, non posso fare delete.
     //if(v != NULL) delete [] v;

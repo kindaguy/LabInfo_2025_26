@@ -5,14 +5,14 @@ void init(myArrayInt &my){
     my.used = 0;
     my.raw = new int(my.size);
 }
-int appendi(myArrayInt &my, int elem){
+int appendi(myArrayInt& my, int elem){
     int err=0;
     if(my.used == my.size){//Non c'e` spazio, devo allargare
-        err = resize(my.raw, my.used, 2*my.size);
+        err = resize(my.raw, my.used, 2 * my.size);
         if(err >= 0){//Tutto ok
             //Debug
             cout<< "resize fatta";
-            my.size = 2*my.size;
+            my.size = 2 * my.size;
         }
         else{
             return err;
