@@ -7,7 +7,7 @@ Implementare la funzione
 
 __int resize(int *&arr, int used, int newsize)__
 
-illustrata a lezione. Ricorda
+illustrata a lezione. Ricordate il significato dei valori di ritorno.
 
 ## Esercizio 2
 
