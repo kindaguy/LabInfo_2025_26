@@ -5,7 +5,7 @@ Oggi concluderemo l'introduzione del programma __make__ e del __makefile__. Poi 
 
 ## Esercizio 1
 
-Il file __sfere.dat__, in questa cartella, contiene la descrizione di un numero non precisato di cuscinetti a sfera. Un cuscinetto a sfera è desccritto da una coppia $(r,c)$ dove $r$ è il raggio del cuscinetto (in mm) e $c$ è la tipologia di cuscinetto (indicata da un carattere). Le sfere descritte su file hanno tipologia __'r', 'g'__ o __'b'__. Definita la t-upla
+Il file __sfere.dat__, in questa cartella, contiene la descrizione di un numero non precisato di cuscinetti a sfera. Un cuscinetto a sfera è descritto da una coppia $(r,c)$ dove $r$ è il raggio del cuscinetto (in mm) e $c$ è la tipologia di cuscinetto (indicata da un carattere). Le sfere descritte su file hanno tipologia __'r', 'g'__ o __'b'__. Definita la t-upla
 
 __struct sfera{__
 __float r;__
@@ -14,7 +14,7 @@ __};__
 
 Dichiarate e definite (rispettivamente nel file __sfera.h__ e __sfera.C__) la funzione per la lettura di una sfera, ovvero
 
-__ifstream& operator>>(ifstream &in, sfera & obj)__
+__istream& operator>>(istream &in, sfera & obj)__
 
 e la funzione per la stampa a video (tramite overload di __operator<<__) di una sfera che visualizzi:
 - il nome del campo (r: e c: ) e il valore del campo su uno spazio di 10 caratteri con allineamento a dx.

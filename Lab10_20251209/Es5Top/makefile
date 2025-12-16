@@ -17,17 +17,6 @@ programma.x: programma.o puntiPiano.o
 #action: what to do to generate the target !!!Mind the tab character before the action!!!!
 
 
-
-
-
-
-
-
-
-
-
-
-
 #this deletes all the .o and .x files (* is a wildcard meaning "anything")
 clean:
 	rm *.o *.x
