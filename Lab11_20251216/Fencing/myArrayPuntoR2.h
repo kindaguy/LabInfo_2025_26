@@ -1,3 +1,6 @@
+#ifndef MYARRRAYPUNTOR2_H
+#define MYARRRAYPUNTOR2_H
+
 #include <iostream>
 #include <fstream>
 #include <cstring>
@@ -19,3 +22,5 @@ int resize(myArrayPuntoR2 & arr, int newsize);
 
 int appendi(myArrayPuntoR2 & arr, puntoR2 elem);
 //To be completed....
+
+#endif

@@ -13,6 +13,7 @@ int main(){
     sfera *arrSfere;
 
     int nsfere;
+    int nsfereDopo;
 
     // Esercizio 1
 
@@ -36,6 +37,19 @@ int main(){
 
     cout << endl << "Numero di sfere descritte su file: " << nsfere;
     for (int i=0; i<nsfere; i++){
+        cout << arrSfere[i];
+    }
+    cout << endl;
+
+
+    //Esercizio 3
+    
+    nsfereDopo = scremaSfere(arrSfere,nsfere,'b');
+
+    cout << endl <<"Dopo scrematura: " << endl;
+
+    
+     for (int i=0; i<nsfereDopo; i++){
         cout << arrSfere[i];
     }
     cout << endl;

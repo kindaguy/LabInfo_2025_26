@@ -1,3 +1,6 @@
+#ifndef PUNTOR2_H
+#define PUNTOR2_H
+
 #include <cmath>
 #include <iostream>
 #include <fstream>
@@ -17,3 +20,4 @@ double distanza(puntoR2 p1, puntoR2 p2);
 istream & operator>>(istream & in, puntoR2 &obj);
 ostream & operator<<(ostream & in, const puntoR2 &obj);
 
+#endif

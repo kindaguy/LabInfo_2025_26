@@ -57,3 +57,30 @@ sfera * leggiSfereFile(const char nomefile[], int& nsfere){
 
 
 }
+
+
+int eliminaShift(sfera v[],  int n, int pos){
+    if(pos <0 or pos > n){
+        cout << endl << "Posizione " << pos <<" fuori range degli indici validi [" << 0 << "..." <<n-1 << "]"<<endl;
+        return -1;
+    }
+    else{
+        for(int i=pos; i<n-1; i++) v[i] = v[i+1];
+        return n-1;
+    }
+}
+
+int scremaSfere(sfera arr[], int used, char col){
+    int i =0;
+    while(i<used){
+        if(arr[i].c == col){
+            used = eliminaShift(arr,used,i);
+        }
+        else{
+            i++;
+        }
+
+    }
+    return used;
+
+}

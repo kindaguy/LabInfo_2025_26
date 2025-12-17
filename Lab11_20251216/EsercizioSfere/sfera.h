@@ -16,3 +16,9 @@ ostream& operator<<(ostream& out, const sfera& obj);
 
 sfera * leggiSfereFile(const char nomefile[], int& nsfere);
 
+int eliminaShift(sfera v[], int n, int pos);
+
+int scremaSfere(sfera arr[], int used,  char col);
+
+
+
