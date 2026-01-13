@@ -1,0 +1,60 @@
+# Punto 1
+
+Bersagli caricati:24
+
+Bersagli distrutti all'inizio: 4
+Bersagli non distrutti all'inizio: 20
+
+Primi 3 bersagli non distrutti:
+
+x:     679.82
+
+y:   -379.579
+
+c:          1
+
+dist:      false
+
+x:    628.654
+
+y:    106.193
+
+c:          3
+
+dist:      false
+
+x:    813.169
+
+y:    303.502
+
+c:         12
+
+dist:      false
+
+Primi 3 bersagli distrutti:
+
+x:    836.681
+
+y:    92.8114
+
+c:         -2
+
+dist:       true
+
+x:    806.942
+
+y:   -87.6272
+
+c:         -4
+
+dist:       true
+
+x:    288.088
+
+y:     92.956
+
+c:         -3
+
+dist:       true
+
+# Punto 2
